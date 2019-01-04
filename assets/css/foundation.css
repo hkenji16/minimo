@@ -2217,7 +2217,6 @@ h2, .h2 {
   margin-bottom: 0.5rem; }
 
 h3, .h3 {
-  color: #626262;
   font-size: 1.1875rem;
   line-height: 1.4;
   margin-top: 0;
@@ -2257,7 +2256,7 @@ h6, .h6 {
 
 a {
   line-height: inherit;
-  color: #626262;
+  color: #1779ba;
   text-decoration: none;
   cursor: pointer; }
   a:hover, a:focus {
@@ -5385,6 +5384,9 @@ a.thumbnail {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; }
+  .top-bar,
+  .top-bar ul {
+    background-color: #e6e6e6; }
   .top-bar input {
     max-width: 200px;
     margin-right: 1rem; }
