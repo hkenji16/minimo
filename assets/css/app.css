@@ -1,0 +1,79 @@
+h3 {
+    color: #626262;
+}
+
+h4 {
+    color: #b4ad9e;
+    font-size: 1rem;
+}
+
+.top-bar, .top-bar ul {
+    background-color: white;
+}
+
+.menu a {
+    color: #626262;
+    padding: 0.7rem 1.5rem;
+}
+
+.newsletter {
+    text-align: center;
+    background-color: #F0F0F0;
+    padding: 35px 25%;
+}
+
+.newsletter p {
+    font-size: 1.5rem;
+}
+
+.first-post {
+    margin-top: 75px;
+}
+
+.blog-post, .first-post, .newsletter, .buttonAlign {
+    margin-bottom: 75px;
+}
+
+input[type=text] {
+    background-color: #F0F0F0;
+    border: none;
+    box-shadow: none;
+    border-bottom-style: solid;
+}
+
+::placeholder {
+    color: black;
+}
+
+input[type=button] {
+    border: solid black 1px;
+    background-color: white;
+    padding: 10px 25px;
+}
+
+input[type=button]:hover {
+    color: white;
+    background-color: black;
+}
+
+.buttonAlign {
+    text-align: center;
+}
+
+.bottom-row {
+    background-color: #F0F0F0;
+}
+
+.bottom-row ul {
+    list-style-type: none;
+    padding: 30px 0;
+}
+
+.bottom-row li {
+    display: inline;
+    padding: 0 15px;
+}
+
+.bottom-row a {
+    color: black;
+}

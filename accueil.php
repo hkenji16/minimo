@@ -1,91 +1,121 @@
 <!doctype html>
 <html class="no-js" lang="en">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Foundation | Welcome</title>
-<link rel="stylesheet" href="assets/css/foundation.css">
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Welcome</title>
+    <link rel="stylesheet" href="assets/css/foundation.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+  </head>
 <body>
 
 <div class="top-bar">
-<div class="top-bar-left">
-<ul class="menu">
-<li class="menu-text">MINIMO</li>
-</ul>
-</div>
-<div class="top-bar-right">
-<ul class="menu">
-<li><a href="#">LIFESTYLE</a></li>
-<li><a href="#">PHOTODIARY</a></li>
-<li><a href="#">MUSIC</a></li>
-<li><a href="#">TRAVEL</a></li>
-</ul>
-</div>
-</div>
+  <div class="top-bar-left">
+  <img src="assets/images/logo_minimo">
+  </div>
 
-<img src="assets/images/01_image_principale">
-
-<h3>The perfect weekend getaway</h3>
-<p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus. Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus. Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
+  <div class="top-bar-right">
+    <ul class="menu">
+      <li><a href="#">LIFESTYLE</a></li>
+      <li><a href="#">PHOTODIARY</a></li>
+      <li><a href="#">MUSIC</a></li>
+      <li><a href="#">TRAVEL</a></li>
+    </ul>
+  </div>
+</div>
 
 <div class="grid-container">
-<div class="grid-x grid-margin-x" id="content">
-<div class="medium-6 cell">
-<div class="blog-post">
-<h3>More than just a music festival</h3>
-<img src="assets/images/02_festival">
-<p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
-<div class="callout">
-<ul class="menu simple">
-<li><a href="#">Author: Mike Mikers</a></li>
-<li><a href="#">Comments: 3</a></li>
-</ul>
-</div>
+  <div class="grid-x grid-margin-x" id="content">
+
+    <div class="cell small-12">
+      <img src="assets/images/01_image_principale">
+      <div class="first-post">
+        <h4>PHOTODIARY</h4>
+        <h3>The perfect weekend getaway</h3>
+        <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus. Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus. Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
+      </div>
+    </div>
+
+    <div class="cell small-12 medium-6">
+      <div class="blog-post">
+        <img src="assets/images/02_festival">
+        <h4>LIFESTYLE</h4>
+        <h3>More than just a music festival</h3>
+        <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
+      </div>
+    </div>
+
+    <div class="cell small-12 medium-6">
+      <div class="blog-post">
+        <img src="assets/images/03_coffee">
+        <h4>LIFESTYLE</h4>
+        <h3>Life tastes better with coffee</h3>
+        <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
+      </div>
+    </div>
+
+    <div class="cell small-12 medium-6">
+      <div class="blog-post">
+        <img src="assets/images/04_pont">
+          <h4>PHOTODIARY</h4>
+          <h3>American Dream</h3>
+          <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
+      </div>
+    </div>
+
+    <div class="cell small-12 medium-6">
+      <div class="blog-post">
+        <img src="assets/images/05_montagnes">
+        <h4>PHOTODIARY</h4>
+        <h3>A day exploring the Alps</h3>
+        <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
+      </div>
+    </div>
+
+  </div>
 </div>
 
-<div class="blog-post">
-<h3>Life tastes better with coffee</h3>
-<img src="assets/images/03_caffee">
-<p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
-<div class="callout">
-<ul class="menu simple">
-<li><a href="#">Author: Mike Mikers</a></li>
-<li><a href="#">Comments: 3</a></li>
-</ul>
-</div>
+<div class="newsletter">
+  <p>Sign up for our newsletter !</p>
+  <input type="text" placeholder="Enter a valid email adress"> 
 </div>
 
-<div class="blog-post">
-<h3>American Dream</h3>
-<img src="assets/images/04_pont">
-<p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
-<div class="callout">
-<ul class="menu simple">
-<li><a href="#">Author: Mike Mikers</a></li>
-<li><a href="#">Comments: 3</a></li>
-</ul>
-</div>
+<div class="grid-container">
+  <div class="grid-x grid-margin-x" id="content">
+
+  <div class="cell small-12 medium-6">
+      <div class="blog-post">
+        <img src="assets/images/06_girl">
+        <h4>LIFESTYLE</h4>
+        <h3>Top 10 song for running</h3>
+        <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
+      </div>
+    </div>
+
+    <div class="cell small-12 medium-6">
+      <div class="blog-post">
+        <img src="assets/images/07_route_glace">
+        <h4>LIFESTYLE</h4>
+        <h3>Cold winter days</h3>
+        <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
+      </div>
+    </div>
+
+  </div>
 </div>
 
-<div class="blog-post">
-<h3>A day exploring the Alps</h3>
-<img src="assets/images/05_montagnes">
-<p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
-<div class="callout">
-<ul class="menu simple">
-<li><a href="#">Author: Mike Mikers</a></li>
-<li><a href="#">Comments: 3</a></li>
-</ul>
-</div>
-</div>
-</div>
+<div class="buttonAlign"><input type="button" value="Load more"></div>
+
+<div class="bottom-row">
+  <ul>
+    <li><a href="#">Terms and conditions</a></li>
+    <li><a href="#">Privacy</a></li>
+  </ul>
 </div>
 
-<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
-<script>
-      $(document).foundation();
-    </script>
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/what-input.js"></script>
+<script src="js/vendor/foundation.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
