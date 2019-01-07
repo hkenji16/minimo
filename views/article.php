@@ -1,17 +1,4 @@
-<!doctype html>
-<html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation | Welcome</title>
-    <link rel="stylesheet" href="../assets/css/foundation.css">
-    <link rel="stylesheet" href="../assets/css/app.css">
-  </head>
-<body>
-
-<?php
-  include 'header.php';
-?>
+<?php ob_start(); ?>
 
 <img src="../assets/images/01_image_principale">
 
@@ -69,9 +56,9 @@
   </div>
 </div>
 
-<?php
-  include 'footer.php';
-?>
+<?php $content = ob_get_clean(); ?>
+
+<?php require('template.php'); ?>
 
 <script src="js/vendor/jquery.js"></script>
 <script src="js/vendor/what-input.js"></script>
