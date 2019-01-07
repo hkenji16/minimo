@@ -9,26 +9,16 @@
   </head>
 <body>
 
-<div class="top-bar">
-  <div class="top-bar-left">
-  <img src="assets/images/logo_minimo">
-  </div>
+<?php
+  include 'views/header.php';
+?>
 
-  <div class="top-bar-right">
-    <ul class="menu">
-      <li><a href="#">LIFESTYLE</a></li>
-      <li><a href="#">PHOTODIARY</a></li>
-      <li><a href="#">MUSIC</a></li>
-      <li><a href="#">TRAVEL</a></li>
-    </ul>
-  </div>
-</div>
+<img src="assets/images/01_image_principale">
 
 <div class="grid-container">
   <div class="grid-x grid-margin-x" id="content">
 
     <div class="cell small-12">
-      <img src="assets/images/01_image_principale">
       <div class="first-post">
         <h4>PHOTODIARY</h4>
         <h3>The perfect weekend getaway</h3>
@@ -106,12 +96,9 @@
 
 <div class="buttonAlign"><input type="button" value="Load more"></div>
 
-<div class="bottom-row">
-  <ul>
-    <li><a href="#">Terms and conditions</a></li>
-    <li><a href="#">Privacy</a></li>
-  </ul>
-</div>
+<?php
+  include 'views/footer.php';
+?>
 
 <script src="js/vendor/jquery.js"></script>
 <script src="js/vendor/what-input.js"></script>

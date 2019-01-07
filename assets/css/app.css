@@ -11,6 +11,10 @@ h4 {
     background-color: white;
 }
 
+.grid-container {
+    margin: 0 10%;
+}
+
 .menu a {
     color: #626262;
     padding: 0.7rem 1.5rem;
@@ -28,6 +32,19 @@ h4 {
 
 .first-post {
     margin-top: 75px;
+}
+
+.blog-post {
+    margin: 0 10px;
+}
+
+.post-content img {
+    padding: 30px 0;
+}
+
+.post-content p {
+    margin: 0 2% 25px;
+    font-style: italic;
 }
 
 .blog-post, .first-post, .newsletter, .buttonAlign {
@@ -60,7 +77,7 @@ input[type=button]:hover {
     text-align: center;
 }
 
-.bottom-row {
+.bottom-row, .like {
     background-color: #F0F0F0;
 }
 
