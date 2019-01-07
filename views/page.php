@@ -41,24 +41,25 @@
   <div class="grid-container">
     <div class="grid-x grid-margin-x" id="content">
 
-      <h4>YOU MAY ALSO LIKE</h4>
-        <div  class="cell small-4">
-          <img src="../assets/images/07_route_glace">
-          <h5>Cold winter days</h5>
-        </div>
-        <div  class="cell small-4">
-          <img src="../assets/images/05_montagnes">
-          <h5>A day exploring the Alps</h5>
-        </div>
-        <div  class="cell small-4">
-          <img src="../assets/images/04_pont">
-          <h5>American dream</h5>
-        </div>
+      <div class="cell small-12">
+        <h4>YOU MAY ALSO LIKE</h4>
+      </div>
+      <div class="cell small-4">
+        <img src="../assets/images/07_route_glace">
+        <h5>Cold winter days</h5>
+      </div>
+      <div class="cell small-4">
+        <img src="../assets/images/05_montagnes">
+        <h5>A day exploring the Alps</h5>
+      </div>
+      <div class="cell small-4">
+        <img src="../assets/images/04_pont">
+        <h5>American dream</h5>
+      </div>
 
     </div>
   </div>
 </div>
-
 
 <?php
   include 'footer.php';

@@ -7,6 +7,14 @@ h4 {
     font-size: 1rem;
 }
 
+.like {
+    padding: 40px 0;
+}
+
+.like h4 {
+    margin-bottom: 40px;
+}
+
 .top-bar, .top-bar ul {
     background-color: white;
 }
