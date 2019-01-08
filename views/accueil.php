@@ -8,11 +8,11 @@ $row = 1;
 while ($data = $posts->fetch())
 {
   if ($row == 1) {
-    ?>
+?>
 
 <div class="cell small-12">
       <div class="blog-post">
-        <img src="assets/images/<?php echo htmlspecialchars(strtoupper($data['image_name'])); ?>">
+        <img src="assets/images/<?php echo htmlspecialchars(strtoupper($data['image_name'])); ?>" class="first">
         <h4>
           <?php echo htmlspecialchars(strtoupper($data['post_category'])); ?>
         </h4>
@@ -26,9 +26,9 @@ while ($data = $posts->fetch())
     </div>
 
     <?php
-  ++$row;  
-  }
-  else {
+++$row;  
+}
+else {
 ?>
 
   <div class="cell small-12 medium-6">
