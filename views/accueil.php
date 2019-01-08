@@ -83,6 +83,37 @@
 
 <div class="buttonAlign"><input type="button" value="Load more"></div>
 
+<div class="grid-container">
+  <div class="grid-x grid-margin-x" id="content">
+
+<?php
+while ($data = $posts->fetch())
+{
+?>
+
+  <div class="cell small-12 medium-6">
+      <div class="blog-post">
+        <img src="assets/images/06_girl">
+        <h4>
+          <?php echo htmlspecialchars(strtoupper($data['post_category'])); ?>
+        </h4>
+        <h3>
+          <?php echo htmlspecialchars($data['post_title']); ?>
+        </h3>
+        <p>
+          <?php echo htmlspecialchars($data['post_content']); ?>
+        </p>
+      </div>
+    </div>
+
+    <?php
+}
+$posts->closeCursor();
+?>
+
+  </div>
+</div>
+
 <?php $content = ob_get_clean(); ?>
 
 <?php require('views/template.php'); ?>
