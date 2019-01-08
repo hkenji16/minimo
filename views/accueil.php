@@ -10,7 +10,7 @@ while ($data = $posts->fetch())
   if ($row == 1) {
 ?>
 
-<div class="cell small-12">
+    <div class="cell small-12">
       <div class="blog-post">
         <img src="assets/images/<?php echo htmlspecialchars(strtoupper($data['image_name'])); ?>" class="first">
         <h4>
@@ -26,12 +26,12 @@ while ($data = $posts->fetch())
     </div>
 
     <?php
-++$row;  
+++$row;
 }
 else {
 ?>
 
-  <div class="cell small-12 medium-6">
+    <div class="cell small-12 medium-6">
       <div class="blog-post">
         <img src="assets/images/<?php echo htmlspecialchars(strtoupper($data['image_name'])); ?>">
         <h4>
