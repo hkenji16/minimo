@@ -4,15 +4,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foundation | Welcome</title>
-    <link rel="stylesheet" href="../assets/css/foundation.css">
-    <link rel="stylesheet" href="../assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/foundation.css">
+    <link rel="stylesheet" href="assets/css/app.css">
   </head>
 
 <body>
 
 <div class="top-bar">
   <div class="top-bar-left">
-  <img src="../assets/images/logo_minimo">
+  <img src="assets/images/logo_minimo">
   </div>
 
   <div class="top-bar-right">
