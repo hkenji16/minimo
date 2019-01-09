@@ -7,6 +7,13 @@
 $row = 1;
 while ($data = $posts->fetch())
 {
+  $nbCharacters = 300;
+if( strlen($data['post_content']) > $nbCharacters ) {
+  $extContent['post_content'] = substr($data['post_content'], 0, $nbCharacters);
+} else {
+  $extContent['post_content'] = $data['post_content'];
+}
+
   if ($row == 1) {
 ?>
 
@@ -20,7 +27,7 @@ while ($data = $posts->fetch())
           <?php echo htmlspecialchars($data['post_title']); ?>
         </h3>
         <p>
-          <?php echo htmlspecialchars($data['post_content']); ?>
+          <?php echo htmlspecialchars($extContent['post_content']) . '...<a href="#">Voir la suite</a>'; ?>
         </p>
       </div>
     </div>
@@ -41,7 +48,7 @@ else {
           <?php echo htmlspecialchars($data['post_title']); ?>
         </h3>
         <p>
-          <?php echo htmlspecialchars($data['post_content']); ?>
+          <?php echo htmlspecialchars($extContent['post_content']) . '...<a href="#">Voir la suite</a>'; ?>
         </p>
       </div>
     </div>
