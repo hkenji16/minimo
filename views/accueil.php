@@ -27,7 +27,7 @@ if( strlen($data['post_content']) > $nbCharacters ) {
           <?php echo htmlspecialchars($data['post_title']); ?>
         </h3>
         <p>
-          <?php echo htmlspecialchars($extContent['post_content']) . '...<a href="#">Voir la suite</a>'; ?>
+          <?php echo htmlspecialchars($extContent['post_content']) . '...<a href="index.php?action=post&amp;id=' . $data['id'] . '">Voir la suite</a>'; ?>
         </p>
       </div>
     </div>
@@ -48,7 +48,7 @@ else {
           <?php echo htmlspecialchars($data['post_title']); ?>
         </h3>
         <p>
-          <?php echo htmlspecialchars($extContent['post_content']) . '...<a href="#">Voir la suite</a>'; ?>
+          <?php echo htmlspecialchars($extContent['post_content']) . '...<a href="index.php?action=post&amp;id=' . $data['id'] . '">Voir la suite</a>'; ?>
         </p>
       </div>
     </div>

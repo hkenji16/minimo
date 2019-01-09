@@ -8,3 +8,12 @@ function mainPage() {
 
     require ('views/accueil.php');
 }
+
+function article()
+{
+    $postManager = new PostManager();
+
+    $post = $postManager->getPost($_GET['id']);
+
+    require('views/article.php');
+}
