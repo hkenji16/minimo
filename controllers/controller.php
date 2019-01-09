@@ -17,3 +17,11 @@ function article()
 
     require('views/article.php');
 }
+
+function category()
+{
+    $postManager = new PostManager();
+    $posts = $postManager->getCategory($_GET['name']);
+
+    require('views/category.php');
+}

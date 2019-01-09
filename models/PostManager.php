@@ -20,4 +20,13 @@ class PostManager extends Manager
 
         return $post;
     }
+
+    public function getCategory($category)
+    {
+        $db = $this->dbConnect();
+        $req = $db->prepare('SELECT id, post_author, post_content, post_title, post_status, post_name, post_type, post_category, image_name FROM posts WHERE post_category = ?');
+        $req->execute(array($category));
+
+        return $req;
+    }
 }

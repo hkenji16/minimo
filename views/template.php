@@ -17,10 +17,10 @@
 
   <div class="top-bar-right">
     <ul class="menu">
-      <li><a href="#">LIFESTYLE</a></li>
-      <li><a href="#">PHOTODIARY</a></li>
-      <li><a href="#">MUSIC</a></li>
-      <li><a href="#">TRAVEL</a></li>
+      <li><a href="index.php?action=category&amp;name=modedevie">MODE DE VIE</a></li>
+      <li><a href="index.php?action=category&amp;name=journal">JOURNAL</a></li>
+      <li><a href="index.php?action=category&amp;name=musique">MUSIQUE</a></li>
+      <li><a href="index.php?action=category&amp;name=visites">VISITES</a></li>
     </ul>
   </div>
 </div>

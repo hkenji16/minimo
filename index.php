@@ -12,6 +12,11 @@ try {
                 throw new Exception("Chemin non valide");
             }
         }
+        if ($_GET['action'] == 'category') {
+            if (isset($_GET['name'])) {
+                category();
+            }
+        }
     }
     else {
         mainPage();
