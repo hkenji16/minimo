@@ -68,7 +68,7 @@ $posts->closeCursor();
 </div>
 
 <div class="grid-container">
-  <div class="grid-x grid-margin-x" id="content">
+  <div class="grid-x grid-margin-x">
 
   <div class="cell small-12 medium-6">
       <div class="blog-post">
@@ -91,12 +91,17 @@ $posts->closeCursor();
   </div>
 </div>
 
-<div class="buttonAlign"><input type="button" value="Load more"></div>
+<div class="grid-container">
+  <div class="grid-x grid-margin-x" id="load">
+
+  </div>
+</div>
+
+<div class="buttonAlign"><input type="button" onclick="loadMore()" value="Load more"></div>
 
 <?php $content = ob_get_clean(); ?>
 
 <?php require('views/template.php'); ?>
-
 
 </body>
 </html>
