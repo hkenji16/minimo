@@ -12,12 +12,12 @@
 
 <div class="top-bar">
   <div class="top-bar-left">
-  <img src="assets/images/logo_minimo">
+    <a href="index.php?action=accueil"><img src="assets/images/logo_minimo"></a>
   </div>
 
   <div class="top-bar-right">
     <ul class="menu">
-      <li><a href="index.php?action=category&amp;name=modedevie">MODE DE VIE</a></li>
+      <li><a href="index.php?action=category&amp;name=lifestyle">LIFESTYLE</a></li>
       <li><a href="index.php?action=category&amp;name=journal">JOURNAL</a></li>
       <li><a href="index.php?action=category&amp;name=musique">MUSIQUE</a></li>
       <li><a href="index.php?action=category&amp;name=visites">VISITES</a></li>

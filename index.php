@@ -17,6 +17,9 @@ try {
                 category();
             }
         }
+        if ($_GET['action'] == 'accueil') {
+            mainPage();
+        }
     }
     else {
         mainPage();

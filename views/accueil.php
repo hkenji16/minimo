@@ -33,9 +33,8 @@ if( strlen($data['post_content']) > $nbCharacters ) {
     </div>
 
     <?php
-++$row;
 }
-else {
+if ($row >= 2 && $row <= 5) {
 ?>
 
     <div class="cell small-12 medium-6">
@@ -54,7 +53,9 @@ else {
     </div>
 
     <?php
-}}
+}
+++$row;
+}
 $posts->closeCursor();
 ?>
 
